@@ -1,15 +1,10 @@
 # 🩺 AI-Powered Clinical Decision Support and Patient Monitoring System
 
-> An AI-powered healthcare platform for ICU patient monitoring, clinical decision support, and hospital admission forecasting using Machine Learning and Predictive Analytics.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![Prophet](https://img.shields.io/badge/Prophet-2E8B57?style=for-the-badge)
+An AI-powered healthcare platform for ICU patient monitoring, clinical decision support, and hospital admission forecasting using Machine Learning, Predictive Analytics, and interactive dashboards.
 
 ---
 
-## 📖 About
+## 📖 Project Overview
 
 This project is an AI-powered healthcare platform designed to support clinical decision-making in Intensive Care Units (ICUs).
 
