@@ -1,46 +1,117 @@
-# AI Clinical Decision Support System
+# 🩺 AI-Powered Clinical Decision Support and Patient Monitoring System
 
-##  Project Description
-This project is a web-based AI-powered Clinical Decision Support System designed to assist healthcare professionals in monitoring ICU patients, predicting patient risk, and forecasting hospital admissions.
+An AI-powered healthcare platform designed to support clinical decision-making and monitor ICU patients using machine learning and forecasting techniques.
 
-The system analyzes patient data and provides insights through an interactive dashboard to support decision-making in hospitals.
-
----
-
-##  Features
-- ICU Patient Monitoring Dashboard
-- Patient Risk Prediction
-- Hospital Admission Forecasting
-- Interactive Data Visualization
+The system analyzes patient data to predict risk levels, provides interactive dashboards for visualization, and forecasts future hospital admissions to support healthcare resource planning.
 
 ---
 
-##  Technologies Used
+## ✨ Features
+
+- 🤖 Patient Risk Prediction using Machine Learning
+- 📊 Interactive Dashboard built with Streamlit
+- 📈 Hospital Admission Forecasting using Prophet
+- 📉 Data Visualization with Plotly
+- 🧹 Data Preprocessing and Feature Engineering
+- 📋 Healthcare Analytics Dashboard
+
+---
+
+## 🛠️ Technologies Used
+
 - Python
 - Streamlit
-- Pandas & NumPy
-- Matplotlib
+- Pandas
+- NumPy
+- Scikit-learn
+- Prophet
 - Plotly
-- Prophet (for forecasting)
+- Matplotlib
 
 ---
 
-##  Datasets Used
-- final_risk_dataset.csv
-- healthcare_analytics_patient_flow_data.csv
-- vitals_demo.csv
+## 📂 Project Structure
+
+```text
+AI-Clinical-Decision-Support-System/
+│
+├── data/
+│   ├── final_risk_dataset.csv
+│   └── healthcare_patient_flow_data.csv
+│
+├── images/
+│   ├── login.png
+│   ├── dashboard.png
+│   ├── monitoring.png
+│   ├── forecast.png
+│   └── risk.png
+│
+├── notebooks/
+│   └── dataVitals_demo.csv
+│
+├── app.py
+├── generate_data.py
+├── requirements.txt
+└── README.md
+```
 
 ---
 
-##  How to Run the Project
+## 📸 Project Preview
 
-1. Install dependencies:
+### Login Page
+
+![Login](images/login.png)
+
+### Dashboard
+
+![Dashboard](images/dashboard.png)
+
+### Patient Monitoring
+
+![Monitoring](images/monitoring.png)
+
+### Forecast Dashboard
+
+![Forecast](images/forecast.png)
+
+### Risk Prediction
+
+![Risk](images/risk.png)
+
+---
+
+## 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Ghala77-prog/AI-Clinical-Decision-Support-System.git
+```
+
+Install the required packages
+
+```bash
 pip install -r requirements.txt
+```
 
-2. Run the application:
+Run the application
+
+```bash
 streamlit run app.py
+```
 
 ---
 
-##  Author
-Developed as part of a Healthcare AI Project.
+## 🎯 Project Goal
+
+The goal of this project is to assist healthcare professionals by combining machine learning, data visualization, and predictive analytics into a single intelligent platform that supports faster and more informed clinical decisions.
+
+---
+
+## 👩‍💻 Author
+
+**Ghala Alharbi**
+
+- GitHub: https://github.com/Ghala77-prog
+- LinkedIn: https://www.linkedin.com/in/ghala-alharbi1/
