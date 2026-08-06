@@ -1,19 +1,31 @@
 # 🩺 AI-Powered Clinical Decision Support and Patient Monitoring System
 
-An AI-powered healthcare platform designed to support clinical decision-making and monitor ICU patients using machine learning and forecasting techniques.
+> An AI-powered healthcare platform for ICU patient monitoring, clinical decision support, and hospital admission forecasting using Machine Learning and Predictive Analytics.
 
-The system analyzes patient data to predict risk levels, provides interactive dashboards for visualization, and forecasts future hospital admissions to support healthcare resource planning.
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange)
+![Prophet](https://img.shields.io/badge/Prophet-Forecasting-green)
+
+---
+
+## 📖 About
+
+This project is an AI-powered healthcare platform designed to support clinical decision-making in Intensive Care Units (ICUs).
+
+The system combines Machine Learning, predictive analytics, and interactive dashboards to assist healthcare professionals in monitoring patients, predicting clinical risk levels, and forecasting future hospital admissions for better healthcare resource planning.
 
 ---
 
 ## ✨ Features
 
-- 🤖 Patient Risk Prediction using Machine Learning
-- 📊 Interactive Dashboard built with Streamlit
-- 📈 Hospital Admission Forecasting using Prophet
-- 📉 Data Visualization with Plotly
-- 🧹 Data Preprocessing and Feature Engineering
-- 📋 Healthcare Analytics Dashboard
+- 🤖 Predict patient risk using Machine Learning models.
+- 🩺 Monitor ICU patient health information.
+- 📊 Interactive healthcare dashboard built with Streamlit.
+- 📈 Forecast future hospital admissions using Prophet.
+- 📉 Interactive charts and analytics using Plotly.
+- 🧹 Data preprocessing and feature engineering.
+- 📋 Healthcare analytics and operational insights.
 
 ---
 
@@ -42,9 +54,11 @@ AI-Clinical-Decision-Support-System/
 ├── images/
 │   ├── login.png
 │   ├── dashboard.png
-│   ├── monitoring.png
+│   ├── icu_monitoring.png
 │   ├── forecast.png
-│   └── risk.png
+│   ├── risk_prediction.png
+│   ├── risk_high.png
+│   └── risk_low.png
 │
 ├── notebooks/
 │   └── dataVitals_demo.csv
@@ -63,21 +77,41 @@ AI-Clinical-Decision-Support-System/
 
 ![Login](images/login.png)
 
+---
+
 ### Dashboard
 
 ![Dashboard](images/dashboard.png)
 
-### Patient Monitoring
+---
 
-![Monitoring](images/monitoring.png)
+### ICU Patient Monitoring
 
-### Forecast Dashboard
+![ICU Monitoring](images/icu_monitoring.png)
 
-![Forecast](images/forecast.png)
+---
 
-### Risk Prediction
+### Hospital Admission Forecast
 
-![Risk](images/risk.png)
+![Forecast Dashboard](images/forecast.png)
+
+---
+
+### Patient Risk Prediction
+
+![Risk Prediction](images/risk_prediction.png)
+
+---
+
+### High Risk Example
+
+![High Risk](images/risk_high.png)
+
+---
+
+### Low Risk Example
+
+![Low Risk](images/risk_low.png)
 
 ---
 
@@ -105,7 +139,9 @@ streamlit run app.py
 
 ## 🎯 Project Goal
 
-The goal of this project is to assist healthcare professionals by combining machine learning, data visualization, and predictive analytics into a single intelligent platform that supports faster and more informed clinical decisions.
+The objective of this project is to enhance clinical decision-making by integrating Machine Learning, predictive analytics, and interactive data visualization into a unified healthcare platform.
+
+The system aims to assist healthcare professionals in identifying patient risk levels, monitoring ICU patients, and forecasting hospital admissions to improve operational planning and patient care.
 
 ---
 
@@ -115,3 +151,7 @@ The goal of this project is to assist healthcare professionals by combining mach
 
 - GitHub: https://github.com/Ghala77-prog
 - LinkedIn: https://www.linkedin.com/in/ghala-alharbi1/
+
+---
+
+⭐ If you found this project interesting, consider giving it a star on GitHub.
