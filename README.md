@@ -2,7 +2,7 @@
 
 > An AI-powered healthcare platform for ICU patient monitoring, clinical decision support, and hospital admission forecasting using Machine Learning and Predictive Analytics.
 
-![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange)
 ![Prophet](https://img.shields.io/badge/Prophet-Forecasting-green)
